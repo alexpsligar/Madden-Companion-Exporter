@@ -6,7 +6,7 @@ const app = express();
 
 // TODO: Enter the path to your service account json file
 // Need help with this step go here: https://firebase.google.com/docs/admin/setup
-const serviceAccount = require("./REPLACE_WITH_SERIVCE_ACCOUNT.json");
+const serviceAccount = require("lg-exporter-firebase-adminsdk-ncw7m-2ffe8616b6.json");
 
 // TODO: Enter your database url from firebase
 admin.initializeApp({
